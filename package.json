@@ -1,0 +1,7 @@
+{
+  "name": "jq-starter",
+  "scripts": {
+    "start": "jq \".scripts.demo\" package.json",
+    "demo": "echo \"Hello, jq!\" && exit 0"
+  }
+}
